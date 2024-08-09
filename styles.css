@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background-image:url(imgs/img-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(2000px, 100vh);
+    height: 80vh; 
+    position: relative;
+}
+body{
+    background-color: black;
+}
+
+.main .box{
+    height: 80vh; 
+    width: 100%;  
+    position: absolute;
+    top: 0%;
+    opacity: 0.6;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    margin:auto;
+    max-width: 76vw;
+    align-items: center;
+    height: 80px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    width: 145px;
+}
+
+nav button{
+    position: relative;
+    z-index: 10; 
+}
+
+.hero{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    gap: 20px;
+    padding: 30px;
+    
+    
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    
+}
+
+.hero > .man{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hero > .pan{
+    font-weight: 450;
+    font: size 200px; 
+    text-align: center;
+}
+.seperation{
+    height: 8px;
+    background-color: rgb(50, 49, 49);
+}
+
+
+
+.si{
+    padding: 7px 10px;
+    background-color: rgb(229, 09, 20);
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+.gs{
+
+    padding: 16px 52px;
+    background-color: rgb(229, 09, 20);
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+.main-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+    
+
+}
+
+
+.lang{
+    font-size: 16px;
+    padding: 5px 8px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.3);
+    font-weight: 549;
+    border: 1px solid rgba(255, 240, 240, 1);
+
+
+}
+
+.hero input{
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    padding: 0px 159px 28px 2px;
+    background-color: rgba(23, 23, 23, 0.3);
+    font-weight: 549;
+    border: 3px solid rgba(255, 240, 240, 1);
+    font-weight: bold;
+
+}
+
+.first{
+    display:flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin:auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg img{
+    position: relative;
+    z-index: 10;
+    width: 40vw;
+}
+.secImg video{
+    position: absolute;
+    top: 680px;
+    right: 200px;
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.first > div :nth-child(2){
+    font-size: 24px;
+}
+
+.seperationn{
+    height: 8px;
+    background-color: rgb(50, 49, 49);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.second{
+    display:flex;
+    justify-content: center;
+    max-width: 75vw;
+    margin:auto;
+    color: white;
+
+}
+.secImg2 img{
+    position: relative;
+    z-index: 10;
+    width: 38vw;
+}
+
+.second > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.second > div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.second > div :nth-child(2){
+    font-size: 24px;
+}
+
+.third{
+    display:flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin:auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg3 img{
+    position: relative;
+    z-index: 10;
+    width: 40vw;
+}
+.secImg3 video{
+    position: absolute;
+    top: 1745px;
+    right: 260px;
+    width: 54vh;
+}
+.third > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.third > div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.third > div :nth-child(2){
+    font-size: 24px;
+}
